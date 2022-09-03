@@ -31,5 +31,7 @@
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothign: grayscale;
+
+    background: rgb(33, 2, 0);
   }
 }
