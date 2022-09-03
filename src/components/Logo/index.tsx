@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable react/no-unknown-property */
+import React from 'react'
 
 function Icon() {
   return (
@@ -7,7 +8,6 @@ function Icon() {
       width="158"
       height="54"
       fill="none"
-      ariaLabel="KaBuM! Tecnologia e Games"
       className="IconLogoKabum"
       viewBox="0 0 158 54"
     >
@@ -46,7 +46,7 @@ function Icon() {
         clipRule="evenodd"
       ></path>
     </svg>
-  );
+  )
 }
 
-export default Icon;
+export default Icon

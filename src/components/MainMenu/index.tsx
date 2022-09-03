@@ -1,4 +1,4 @@
-import { CaretDown } from "phosphor-react";
+import { CaretDown } from 'phosphor-react'
 
 export function MainMenu() {
   return (
@@ -9,26 +9,61 @@ export function MainMenu() {
           <CaretDown size={16} weight="bold" />
         </div>
         <ul className="w-full h-full flex items-center justify-around group-hover">
-          <a href="#" className="w-full h-full flex items-center justify-center hover:-bg--text-grey hover:bg-opacity-30">
-            <li className="border-r-[1px] w-full h-[70%] flex items-center justify-center">Lançamentos</li>
+          <a
+            href="#"
+            className="w-full h-full flex items-center justify-center hover:-bg--text-grey hover:bg-opacity-30"
+          >
+            <li className="border-r-[1px] w-full h-[70%] flex items-center justify-center">
+              Lançamentos
+            </li>
           </a>
-          <a href="#" className="w-full h-full flex items-center justify-center hover:-bg--text-grey hover:bg-opacity-30">
-            <li className="border-r-[1px] w-full h-[70%] flex items-center justify-center">Destaques</li>
+          <a
+            href="#"
+            className="w-full h-full flex items-center justify-center hover:-bg--text-grey hover:bg-opacity-30"
+          >
+            <li className="border-r-[1px] w-full h-[70%] flex items-center justify-center">
+              Destaques
+            </li>
           </a>
-          <a href="#" className="w-full h-full flex items-center justify-center hover:-bg--text-grey hover:bg-opacity-30">
-            <li className="border-r-[1px] w-full h-[70%] flex items-center justify-center">PC Gamer</li>
+          <a
+            href="#"
+            className="w-full h-full flex items-center justify-center hover:-bg--text-grey hover:bg-opacity-30"
+          >
+            <li className="border-r-[1px] w-full h-[70%] flex items-center justify-center">
+              PC Gamer
+            </li>
           </a>
-          <a href="#" className="w-full h-full flex items-center justify-center hover:-bg--text-grey hover:bg-opacity-30">
-            <li className="border-r-[1px] w-full h-[70%] flex items-center justify-center">Eletrônicos</li>
+          <a
+            href="#"
+            className="w-full h-full flex items-center justify-center hover:-bg--text-grey hover:bg-opacity-30"
+          >
+            <li className="border-r-[1px] w-full h-[70%] flex items-center justify-center">
+              Eletrônicos
+            </li>
           </a>
-          <a href="#" className="w-full h-full flex items-center justify-center hover:-bg--text-grey hover:bg-opacity-30">
-            <li className="border-r-[1px] w-full h-[70%] flex items-center justify-center">Seja Prime</li>
+          <a
+            href="#"
+            className="w-full h-full flex items-center justify-center hover:-bg--text-grey hover:bg-opacity-30"
+          >
+            <li className="border-r-[1px] w-full h-[70%] flex items-center justify-center">
+              Seja Prime
+            </li>
           </a>
-          <a href="#" className="w-full h-full flex items-center justify-center hover:-bg--text-grey hover:bg-opacity-30">
-            <li className="border-r-[1px] w-full h-[70%] flex items-center justify-center">Oferta do Dia</li>
+          <a
+            href="#"
+            className="w-full h-full flex items-center justify-center hover:-bg--text-grey hover:bg-opacity-30"
+          >
+            <li className="border-r-[1px] w-full h-[70%] flex items-center justify-center">
+              Oferta do Dia
+            </li>
           </a>
-          <a href="#" className="w-full h-full flex items-center justify-center hover:-bg--text-grey hover:bg-opacity-30">
-            <li className="border-r-[1px] w-full h-[70%] flex items-center justify-center">Baixe o APP</li>
+          <a
+            href="#"
+            className="w-full h-full flex items-center justify-center hover:-bg--text-grey hover:bg-opacity-30"
+          >
+            <li className="border-r-[1px] w-full h-[70%] flex items-center justify-center">
+              Baixe o APP
+            </li>
           </a>
         </ul>
       </div>

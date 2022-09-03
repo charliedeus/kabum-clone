@@ -12,9 +12,7 @@ export function DefaultLayout({ children }: LayoutProps) {
     <>
       <Header />
       <MainMenu />
-      <main>
-        {children}
-      </main>
+      <main>{children}</main>
     </>
   )
 }
