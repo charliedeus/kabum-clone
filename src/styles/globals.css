@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    width: 100vw;
+    height: 100vh;
+
+    font-weight: normal;
+    font-size: 1rem;
+
+    line-height: 1.1;
+    letter-spacing: 0em;
+
+    overflow: overlay;
+    scrollbar-width: none;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothign: grayscale;
+  }
+}
