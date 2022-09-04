@@ -1,0 +1,12 @@
+.container {
+  @apply max-w-[94rem] h-full p-4;
+
+}
+
+.content {
+  @apply flex flex-1 flex-col;
+}
+
+.pageContent {
+  @apply flex flex-1 w-full h-full px-4 mt-4 rounded-lg;
+}
