@@ -1,6 +1,5 @@
 import { ReactNode } from 'react'
 
-import styles from '../DefaultLayout/styles.module.css'
 import { Header } from '../../components/Header'
 import { MainMenu } from '../../components/MainMenu'
 
@@ -13,7 +12,7 @@ export function DefaultLayout({ children }: LayoutProps) {
     <>
       <Header />
       <MainMenu />
-      <main className={styles.pageContent}>{children}</main>
+      <main>{children}</main>
     </>
   )
 }

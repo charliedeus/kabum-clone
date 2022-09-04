@@ -8,5 +8,5 @@
 }
 
 .pageContent {
-  @apply flex flex-1 w-full h-full px-4 mt-4 rounded-lg;
+  @apply flex flex-1 w-full h-full;
 }
